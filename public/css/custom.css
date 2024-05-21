@@ -1,0 +1,10 @@
+/* File: public/css/custom.css */
+.pagination {
+    font-size: 0.75rem; /* Mengatur ukuran font */
+}
+
+.pagination li a,
+.pagination li span {
+    padding: 5px 8px; /* Mengatur padding */
+    margin: 0 2px; /* Mengatur margin */
+}
