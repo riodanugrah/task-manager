@@ -8,3 +8,17 @@
     padding: 5px 8px; /* Mengatur padding */
     margin: 0 2px; /* Mengatur margin */
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}

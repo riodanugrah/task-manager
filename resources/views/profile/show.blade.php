@@ -8,10 +8,9 @@
                 <div style="display: flex; align-items: center; justify-content: space-between;">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                        <li class="breadcrumb-item"><a href="{{ route('profile.show') }}">Profile</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Edit Profile</li>
+                        <li class="breadcrumb-item active" aria-current="page">Profile</li>
                     </ol>
-                    <a href="{{ route('profile.show') }}" class="btn btn-link">Back</a>
+                    <a href="{{ route('home') }}" class="btn btn-link">Back</a>
                 </div>
             </nav>
             <div class="card">
